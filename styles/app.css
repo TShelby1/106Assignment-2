@@ -1,0 +1,75 @@
+*{
+   margin:0;
+   padding:0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   letter-spacing: 1.5px;
+   
+}
+body{
+   background-color: rgba(21, 21, 21, 0.836);
+}
+.head{
+   background-color: rgba(255, 70, 70, 0.574);
+   height:3rem;
+   align-items: center;
+   text-align: center;
+}
+main {
+   display:flex;
+   flex-direction: column;
+   align-items: flex-end;
+   /* text-align: center; */
+}
+
+#sect-form{
+   display:flex;
+   border-top:2px solid red;
+   border-left:2px solid red;
+   border-bottom:2px solid red;
+   width:35rem;
+   height:30rem;
+   background-color: darkgray;
+   padding-top:5px;
+  /* justify-content: center; */
+}
+
+
+
+#sect-form div.form{
+   display:flex;
+   flex-direction: column;
+   width:15rem;
+   height:30rem;
+   margin-left:1rem;
+   margin-right:auto;
+   background-color: darkgray;
+}
+
+.label{
+   background-color: darkgray;
+}
+
+#sect-form div.control{
+   display:flex;
+   flex-direction: column;
+   width:15rem;
+   /* height:15rem; */
+   /* text-align: right; */
+   padding-bottom:10px;
+   background-color: darkgray;
+   
+}
+
+
+
+.icon-important{
+   /* color:white;  */
+   font-size: 20px;
+   cursor:pointer;
+   background-color: darkgray;
+   
+} 
+
+.showButton{
+   margin-right:30rem;
+}
